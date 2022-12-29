@@ -1,0 +1,11 @@
+.pt-30 {
+    padding-top: 30px;
+}
+
+.danger {
+    color: red;
+}
+
+.success {
+    color: #4caf50;
+}

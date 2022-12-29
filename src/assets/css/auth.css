@@ -1,0 +1,274 @@
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+
+    margin-top: 10px;
+    border: 1px solid #8692a6;
+    border-radius: 6px;
+
+}
+
+.form-group label {
+    margin-bottom: 14px;
+    color: #696f79;
+
+}
+
+
+
+.login {
+    display: flex;
+    gap: 40px;
+}
+
+.login_desc {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.loginlogo {
+    width: 439px;
+    height: 103px;
+    margin-bottom: 100px;
+}
+
+.symbol_login {
+    letter-spacing: -15px;
+    margin-bottom: -30px;
+
+    font-size: 96px;
+    color: #bababa;
+}
+
+.game_desc_login {
+    width: 430px;
+    height: 160px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #696f79;
+    font-style: italic;
+}
+
+.gamer_login {
+    width: 124px;
+    height: 38px;
+    font-size: 20px;
+    line-height: 38px;
+    color: #696f79;
+}
+
+.joystick {
+    width: 336px;
+    height: 418px;
+    margin-top: -80px;
+    margin-left: 300px;
+}
+
+
+.login_title {
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.form_login_title {
+
+    font-size: 30px;
+    color: #000000;
+}
+
+.form_login_desc {
+    font-size: 18px;
+    color: #8692a6;
+}
+
+.social-login-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-login-links a {
+    padding: 10px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+
+.reg_anchor {
+    font-size: 16px;
+    color: #696f79;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.reg_anchor a {
+    text-decoration: none;
+    color: #1565d8;
+}
+
+
+
+
+.sign_up {
+    display: flex;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 642px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: rgba(21, 101, 216, 0.9);
+}
+
+.game_logo {
+    position: absolute;
+    width: 106px;
+    height: 57px;
+    left: 89px;
+    top: 61px;
+}
+
+.symbol {
+    position: absolute;
+    width: 28px;
+    height: 117px;
+    left: 82px;
+    top: 300px;
+
+    font-size: 96px;
+    color: #00daf7;
+}
+
+.game_desc {
+    position: absolute;
+    width: 420px;
+    height: 160px;
+    left: 82px;
+    top: 360px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.gamer {
+    position: absolute;
+    width: 124px;
+    height: 38px;
+    left: 82px;
+    top: 600px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.vector {
+    position: absolute;
+    width: 33.5px;
+    height: 33px;
+    left: 485px;
+    top: 639px;
+    background: url("../images/Vector.png");
+}
+
+.back {
+    text-decoration: none;
+    padding: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8692a6;
+}
+
+
+.sign_title {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #F5F5F5;
+}
+ .social-login-links {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.form_sign_title {
+    width: 415px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.form_sign_desc {
+    width: 350px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8692a6;
+    margin-top: -0px;
+}
+
+.or {
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    color: #bababa;
+    margin-top: 5px;
+}
+
+.go_to_login {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.login_button {
+    height: 64px;
+    border: none;
+    background: transparent;
+    color: #000000;
+    font-style: bolder;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.google {
+    vertical-align: middle;
+    margin-right: 145px;
+    margin-left: 40px;
+}
+
+.error {
+    margin-top: 10px;
+    font-size: large;
+    color: red;
+}
+
+button {
+    cursor: pointer;
+}
